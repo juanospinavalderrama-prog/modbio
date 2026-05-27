@@ -167,7 +167,7 @@ def default_param_specs() -> Dict[str, ParamSpec]:
     # Nota metodológica: la hoja "Parámetros base" del Excel reporta c=0.034 que es
     # inconsistente con la curva de lactancia simulada (PLn≈4663). El valor real
     # de c en la hoja "Curva" es ~0.00486. Usamos este último como base por defecto.
-    add("c", "c (Wood)", "parámetro", 0.00486, 0.000764, "Normal", "Producción", min_floor=0.001)
+    add("c", "c (Wood)", "parámetro", 0.00485718487394958, 0.000109167143506564, "Normal", "Producción", min_floor=0.001)
     add("DLAC", "Longitud de lactancia", "d", 305, 39.72, "Normal", "Producción", min_floor=60)
 
     # Composición de leche
